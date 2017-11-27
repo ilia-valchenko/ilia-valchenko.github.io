@@ -7,11 +7,40 @@
 
 		<title>ilia-valchenko | GitHub Pages</title>
 
+		<link href="css/style.css" rel="stylesheet">
+
+		<script src="js/script.js"></script>
 	</head>
 	<body>
-		<div class="main">
+		<header>
 			<h1>My first meeting with GitHub Pages.</h1>
 			<p><a href="#">Follow the link</a></p>
-		</div>
+		</header>
+
+		<main>
+			<p>Comments</p>
+
+			<form name="commentForm" class="commentForm" action="#">
+				<input type="text" name="name" placeholder="Input your name">
+				<textarea name="comment" rows="8" cols="80" placeholder="Input the text of the comment"></textarea>
+				<input type="button" name="submitCommentButton" value="Submit">
+			</form>
+
+			<div class="commentBlock">
+				<div id="comment1">
+					<p class="commentatorName">Ilia Valchenko</p>
+					<p class="commentText">Comment: <span>Hi! It's me!</span></p>
+				</div>
+
+				<div id="comment1">
+					<p class="commentatorName">Roberto Duran</p>
+					<p class="commentText">Comment: <span>No mas!</span></p>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<p>Created by <a href="https://github.com/ilia-valchenko" target="_blank" title="GitHub profile">Ilia Valchenko</a></p>
+		</footer>
 	</body>
 </html>

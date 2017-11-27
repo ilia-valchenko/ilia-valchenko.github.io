@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0.5% 1%;
+}
+
+main {
+  padding: 0.5% 1%;
+}
+
+form.commentForm input {
+  display: block;
+  margin: 0.5% 0 0 0;
+}
+
+form.commentForm textarea {
+  margin: 0.5% 0 0 0;
+}
+
+div.commentBlock {
+  padding: 0.5% 0;
+}
+
+div.commentBlock p.commentatorName {
+  font-weight: bold;
+}
+
+div.commentBlock div {
+  margin: 0 0 0.5% 0;
+}
+
+footer {
+  background-color: #d6d6d6;
+  padding: 0.5% 1%;
+}
+
+footer a {
+  color: #000000;
+}
+
+footer a:hover {
+  color: #6d6d6d;
+}
